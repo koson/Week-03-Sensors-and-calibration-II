@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 460" width="920" height="460" style="background: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <filter id="excelShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Excel Window Container -->
+  <rect x="15" y="15" width="890" height="430" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" filter="url(#excelShadow)"/>
+
+  <!-- Excel Title Bar -->
+  <path d="M 15 25 Q 15 15 25 15 L 895 15 Q 905 15 905 25 L 905 50 L 15 50 Z" fill="#107c41"/>
+  <text x="35" y="38" font-size="13" font-weight="bold" fill="#ffffff">Microsoft Excel — LDR_Calibration_Student_68030232.xlsx</text>
+  <!-- Window buttons -->
+  <circle cx="850" cy="32" r="5" fill="#facc15"/>
+  <circle cx="870" cy="32" r="5" fill="#4ade80"/>
+  <circle cx="890" cy="32" r="5" fill="#f87171"/>
+
+  <!-- Excel Formula Bar -->
+  <rect x="15" y="50" width="890" height="30" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="25" y="55" width="45" height="20" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="47" y="69" text-anchor="middle" font-size="11" font-weight="bold" fill="#475569">C8</text>
+  <text x="85" y="70" font-size="12" font-style="italic" fill="#94a3b8">fx</text>
+  <text x="110" y="70" font-size="12" fill="#1e293b">=LINEST(C2:C8, B2:B8^{1,2})</text>
+
+  <!-- Left: Spreadsheet Grid (Columns A, B, C) -->
+  <g transform="translate(25, 90)">
+    <!-- Headers -->
+    <rect x="0" y="0" width="30" height="25" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="0.5"/>
+    <rect x="30" y="0" width="160" height="25" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="0.5"/>
+    <text x="110" y="17" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">A (สภาพแสงทดสอบ)</text>
+    <rect x="190" y="0" width="95" height="25" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="0.5"/>
+    <text x="237" y="17" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">B (ADC Raw)</text>
+    <rect x="285" y="0" width="95" height="25" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="0.5"/>
+    <text x="332" y="17" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">C (Lux มือถือ)</text>
+
+    <!-- Data Rows -->
+    <!-- Row 1 -->
+    <g transform="translate(0, 25)">
+      <rect x="0" y="0" width="30" height="24" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="15" y="16" text-anchor="middle" font-size="11" fill="#64748b">1</text>
+      <rect x="30" y="0" width="160" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="38" y="16" font-size="11" fill="#1e293b">มืดสนิทในกล่องทึบ</text>
+      <rect x="190" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="275" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">280</text>
+      <rect x="285" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="370" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">4.0</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(0, 49)">
+      <rect x="0" y="0" width="30" height="24" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="15" y="16" text-anchor="middle" font-size="11" fill="#64748b">2</text>
+      <rect x="30" y="0" width="160" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="38" y="16" font-size="11" fill="#1e293b">แสงสลัวใต้โต๊ะ</text>
+      <rect x="190" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="275" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">520</text>
+      <rect x="285" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="370" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">28.0</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(0, 73)">
+      <rect x="0" y="0" width="30" height="24" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="15" y="16" text-anchor="middle" font-size="11" fill="#64748b">3</text>
+      <rect x="30" y="0" width="160" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="38" y="16" font-size="11" fill="#1e293b">แสงสลัวมุมห้อง</text>
+      <rect x="190" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="275" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">980</text>
+      <rect x="285" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="370" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">95.0</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(0, 97)">
+      <rect x="0" y="0" width="30" height="24" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="15" y="16" text-anchor="middle" font-size="11" fill="#64748b">4</text>
+      <rect x="30" y="0" width="160" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="38" y="16" font-size="11" fill="#1e293b">ห้องเรียนทั่วไป</text>
+      <rect x="190" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="275" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">1550</text>
+      <rect x="285" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="370" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">220.0</text>
+    </g>
+
+    <!-- Row 5 -->
+    <g transform="translate(0, 121)">
+      <rect x="0" y="0" width="30" height="24" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="15" y="16" text-anchor="middle" font-size="11" fill="#64748b">5</text>
+      <rect x="30" y="0" width="160" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="38" y="16" font-size="11" fill="#1e293b">ใต้หลอดไฟเพดาน</text>
+      <rect x="190" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="275" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">2100</text>
+      <rect x="285" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="370" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">380.0</text>
+    </g>
+
+    <!-- Row 6 -->
+    <g transform="translate(0, 145)">
+      <rect x="0" y="0" width="30" height="24" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="15" y="16" text-anchor="middle" font-size="11" fill="#64748b">6</text>
+      <rect x="30" y="0" width="160" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="38" y="16" font-size="11" fill="#1e293b">ใต้โคมไฟโต๊ะทำงาน</text>
+      <rect x="190" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="275" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">2750</text>
+      <rect x="285" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="370" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">620.0</text>
+    </g>
+
+    <!-- Row 7 -->
+    <g transform="translate(0, 169)">
+      <rect x="0" y="0" width="30" height="24" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="15" y="16" text-anchor="middle" font-size="11" fill="#64748b">7</text>
+      <rect x="30" y="0" width="160" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="38" y="16" font-size="11" fill="#1e293b">ริมหน้าต่างกลางวัน</text>
+      <rect x="190" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="275" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">3600</text>
+      <rect x="285" y="0" width="95" height="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+      <text x="370" y="16" text-anchor="end" font-size="11" font-weight="500" fill="#0f172a">1350.0</text>
+    </g>
+
+    <!-- Selection Highlight Box around data -->
+    <rect x="190" y="25" width="190" height="168" fill="none" stroke="#107c41" stroke-width="2"/>
+    <rect x="377" y="190" width="6" height="6" fill="#107c41"/>
+  </g>
+
+  <!-- Right: Embedded Chart in Excel -->
+  <g transform="translate(430, 90)">
+    <rect width="460" height="330" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="230" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">แผนภูมิกระจาย (Scatter Chart) ADC vs Lux</text>
+
+    <!-- Chart Plot Area -->
+    <rect x="50" y="40" width="380" height="230" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    
+    <!-- Gridlines -->
+    <line x1="50" y1="97" x2="430" y2="97" stroke="#e2e8f0" stroke-width="1"/>
+    <line x1="50" y1="154" x2="430" y2="154" stroke="#e2e8f0" stroke-width="1"/>
+    <line x1="50" y1="211" x2="430" y2="211" stroke="#e2e8f0" stroke-width="1"/>
+
+    <text x="40" y="45" text-anchor="end" font-size="10" fill="#64748b">1400</text>
+    <text x="40" y="102" text-anchor="end" font-size="10" fill="#64748b">1000</text>
+    <text x="40" y="159" text-anchor="end" font-size="10" fill="#64748b">600</text>
+    <text x="40" y="216" text-anchor="end" font-size="10" fill="#64748b">200</text>
+    <text x="40" y="273" text-anchor="end" font-size="10" fill="#64748b">0</text>
+
+    <!-- X labels -->
+    <text x="50" y="288" text-anchor="middle" font-size="10" fill="#64748b">0</text>
+    <text x="145" y="288" text-anchor="middle" font-size="10" fill="#64748b">1000</text>
+    <text x="240" y="288" text-anchor="middle" font-size="10" fill="#64748b">2000</text>
+    <text x="335" y="288" text-anchor="middle" font-size="10" fill="#64748b">3000</text>
+    <text x="430" y="288" text-anchor="middle" font-size="10" fill="#64748b">4000</text>
+
+    <!-- Curve fit path in chart -->
+    <!-- (280, 4) -> (50 + 26.6, 270 - 0.6) = (76.6, 269.4) -->
+    <!-- (520, 28) -> (99.4, 265.4) -->
+    <!-- (980, 95) -> (143.1, 254.4) -->
+    <!-- (1550, 220) -> (197.3, 233.9) -->
+    <!-- (2100, 380) -> (249.5, 207.6) -->
+    <!-- (2750, 620) -> (311.3, 168.1) -->
+    <!-- (3600, 1350) -> (392.0, 48.2) -->
+    <path d="M 76 270 Q 140 255 197 234 T 311 168 T 392 48" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+
+    <!-- Data dots -->
+    <circle cx="76.6" cy="269.4" r="4.5" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+    <circle cx="99.4" cy="265.4" r="4.5" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+    <circle cx="143.1" cy="254.4" r="4.5" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+    <circle cx="197.3" cy="233.9" r="4.5" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+    <circle cx="249.5" cy="207.6" r="4.5" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+    <circle cx="311.3" cy="168.1" r="4.5" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+    <circle cx="392.0" cy="48.2" r="4.5" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+
+    <!-- Excel Trendline Callout Box -->
+    <rect x="70" y="60" width="230" height="60" rx="4" fill="#ffffff" stroke="#93c5fd" stroke-width="1.5"/>
+    <text x="80" y="80" font-size="12" font-weight="bold" fill="#1e40af">y = 0.000132x² - 0.1278x + 60.11</text>
+    <text x="80" y="102" font-size="12" font-weight="bold" fill="#2563eb">R² = 0.9906</text>
+
+    <!-- Legend -->
+    <text x="230" y="315" text-anchor="middle" font-size="11" fill="#475569">แกน X: ADC Raw (12-bit) | แกน Y: Illuminance (Lux)</text>
+  </g>
+</svg>

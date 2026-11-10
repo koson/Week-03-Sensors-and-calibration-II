@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" width="880" height="380" style="background: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <linearGradient id="bandGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="bandGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#b91c1c" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <text x="440" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#0f172a">หลักการทำงานและการแปลงทางฟิสิกส์ของ LDR (Photoresistor: CdS Semiconductor)</text>
+
+  <!-- Left: Physical Sensor Illustration -->
+  <g transform="translate(40, 55)">
+    <rect width="240" height="295" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="120" y="30" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">โครงสร้างกายภาพ LDR 5mm</text>
+    
+    <!-- LDR Disc -->
+    <circle cx="120" cy="115" r="55" fill="#fef08a" stroke="#ca8a04" stroke-width="3"/>
+    <circle cx="120" cy="115" r="48" fill="#fef9c3" stroke="#eab308" stroke-width="1"/>
+    
+    <!-- Serpentine track CdS -->
+    <path d="M 85 95 Q 120 85 155 95 Q 155 105 120 105 Q 85 105 85 115 Q 120 115 155 115 Q 155 125 120 125 Q 85 125 85 135 Q 120 145 155 135" fill="none" stroke="#dc2626" stroke-width="4.5" stroke-linecap="round"/>
+    
+    <!-- Pins -->
+    <line x1="100" y1="168" x2="100" y2="245" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="140" y1="168" x2="140" y2="245" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Labels -->
+    <text x="120" y="265" text-anchor="middle" font-size="12" font-weight="600" fill="#475569">แถบสารกึ่งตัวนำ CdS</text>
+    <text x="120" y="282" text-anchor="middle" font-size="11" fill="#64748b">Cadmium Sulfide Track</text>
+  </g>
+
+  <!-- Middle: State 1 Dark Condition -->
+  <g transform="translate(310, 55)">
+    <rect width="250" height="295" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect x="15" y="15" width="220" height="26" rx="6" fill="#1e293b"/>
+    <text x="125" y="33" text-anchor="middle" font-size="12" font-weight="bold" fill="#f8fafc">1. สภาวะมืด (Dark State)</text>
+    
+    <!-- Conduction Band -->
+    <rect x="25" y="65" width="200" height="45" rx="6" fill="url(#bandGrad1)" stroke="#3b82f6" stroke-width="1"/>
+    <text x="125" y="92" text-anchor="middle" font-size="12" font-weight="600" fill="#1e40af">Conduction Band (ว่างเปล่า)</text>
+    
+    <!-- Band Gap -->
+    <rect x="25" y="118" width="200" height="45" rx="6" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="125" y="145" text-anchor="middle" font-size="12" font-weight="500" fill="#64748b">Band Gap (Eg ≈ 2.42 eV)</text>
+    
+    <!-- Valence Band -->
+    <rect x="25" y="171" width="200" height="45" rx="6" fill="url(#bandGrad2)" stroke="#ef4444" stroke-width="1"/>
+    <text x="125" y="198" text-anchor="middle" font-size="12" font-weight="600" fill="#991b1b">Valence Band (อิเล็กตรอนหนาแน่น)</text>
+
+    <!-- Electron dots in Valence -->
+    <circle cx="50" cy="188" r="4" fill="#dc2626"/><circle cx="80" cy="188" r="4" fill="#dc2626"/>
+    <circle cx="110" cy="188" r="4" fill="#dc2626"/><circle cx="140" cy="188" r="4" fill="#dc2626"/>
+    <circle cx="170" cy="188" r="4" fill="#dc2626"/><circle cx="200" cy="188" r="4" fill="#dc2626"/>
+
+    <!-- Status Box -->
+    <rect x="25" y="230" width="200" height="48" rx="6" fill="#fee2e2" stroke="#fca5a5" stroke-width="1"/>
+    <text x="125" y="250" text-anchor="middle" font-size="11" font-weight="bold" fill="#991b1b">ไม่มีพาหะนำไฟฟ้าอิสระ</text>
+    <text x="125" y="268" text-anchor="middle" font-size="12" font-weight="bold" fill="#b91c1c">ความต้านทานสูงมาก (R > 200 kΩ)</text>
+  </g>
+
+  <!-- Right: State 2 Illuminated Condition -->
+  <g transform="translate(590, 55)">
+    <rect width="250" height="295" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect x="15" y="15" width="220" height="26" rx="6" fill="#0284c7"/>
+    <text x="125" y="33" text-anchor="middle" font-size="12" font-weight="bold" fill="#f8fafc">2. สภาวะมีแสง (Illuminated)</text>
+    
+    <!-- Incoming Light Photons -->
+    <path d="M 25 52 L 55 68 M 20 62 L 50 78" stroke="#eab308" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="85" y="58" font-size="11" font-weight="bold" fill="#ca8a04">โฟตอนแสง (hν ≥ Eg)</text>
+
+    <!-- Conduction Band with Jumped Electrons -->
+    <rect x="25" y="65" width="200" height="45" rx="6" fill="url(#bandGrad1)" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="125" y="85" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e40af">Conduction Band (มีอิเล็กตรอนนำไฟฟ้า)</text>
+    <!-- free electrons -->
+    <circle cx="65" cy="98" r="4" fill="#2563eb"/><circle cx="105" cy="98" r="4" fill="#2563eb"/>
+    <circle cx="145" cy="98" r="4" fill="#2563eb"/><circle cx="185" cy="98" r="4" fill="#2563eb"/>
+    
+    <!-- Excitation Arrows -->
+    <path d="M 65 170 L 65 110 M 145 170 L 145 110" stroke="#059669" stroke-width="2.5" stroke-dasharray="3,2" marker-end="url(#arrow)"/>
+    <text x="125" y="145" text-anchor="middle" font-size="11" font-weight="bold" fill="#059669">กระตุ้นอิเล็กตรอนหลุดข้ามแถบ</text>
+
+    <!-- Valence Band with Holes -->
+    <rect x="25" y="171" width="200" height="45" rx="6" fill="url(#bandGrad2)" stroke="#ef4444" stroke-width="1"/>
+    <text x="125" y="198" text-anchor="middle" font-size="11" font-weight="600" fill="#991b1b">Valence Band (เกิด Electron-hole pairs)</text>
+    <circle cx="50" cy="188" r="4" fill="#fca5a5" stroke="#dc2626" stroke-width="1.5"/>
+    <circle cx="110" cy="188" r="4" fill="#fca5a5" stroke="#dc2626" stroke-width="1.5"/>
+
+    <!-- Status Box -->
+    <rect x="25" y="230" width="200" height="48" rx="6" fill="#dcfce7" stroke="#86efac" stroke-width="1"/>
+    <text x="125" y="250" text-anchor="middle" font-size="11" font-weight="bold" fill="#166534">พาหะนำไฟฟ้าเพิ่มขึ้นมหาศาล</text>
+    <text x="125" y="268" text-anchor="middle" font-size="12" font-weight="bold" fill="#15803d">ความต้านทานลดฮวบ (R &lt; 1 kΩ)</text>
+  </g>
+</svg>
